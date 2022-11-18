@@ -1,0 +1,187 @@
+
+
+h1{
+	text-align:Center;
+}
+/* Index */
+footer{
+	text-align:right
+	;
+}
+#logo img{
+	 width: 400px;
+    height: auto;
+	align:center;
+	display: block;
+	margin-left: auto;
+  margin-right: auto;
+  border: 10px solid black;
+  
+}
+
+#ring img{
+	width: 400px;
+    height: auto;
+}
+
+#evansPic img{
+	width: 400px;
+    height: auto;
+	border: 10px solid red;
+}
+#wilderPic img{
+	width: 400px;
+    height: 300px;
+	border: 10px solid blue;
+}
+#winstonPic img{
+	width: 400px;
+    height: 300px;
+	border: 10px solid black;
+}
+
+
+
+/* Recieving */
+
+#recieverBody {
+	background-color: yellow;
+}
+
+div.Evans{
+	
+	border: 10px solid black;
+	margin-right: 1000px;
+	background: red;
+	color: white;
+}
+div.Godwin{
+	
+	border: 10px solid red;
+	margin-right: 1000px;
+	background: black;
+	color: white;
+}
+
+div.Carrier{
+	
+	border: 10px solid gold;
+	margin-right: 1000px;
+	background: red;
+	color: white;
+}
+div.House{
+	
+	border: 10px solid red;
+	margin-right: 1000px;
+	background: black;
+	color: white;
+}
+div.Jackson{
+	
+	border: 10px solid black;
+	margin-right: 1000px;
+	background: red;
+	color: white;
+}
+
+/* Rushing */
+
+#rushBody {
+	background-color: yellow;
+}
+
+div.Wilder{
+	
+	border: 10px solid black;
+	margin-right: 1000px;
+	background: red;
+	color: white;
+}
+div.Alstott{
+	
+	border: 10px solid red;
+	margin-right: 1000px;
+	background: black;
+	color: white;
+}
+div.Dunn{
+	
+	border: 10px solid gold;
+	margin-right: 1000px;
+	background: red;
+	color: white;
+}
+div.Martin{
+	
+	border: 10px solid red;
+	margin-right: 1000px;
+	background: black;
+	color: white;
+}
+div.Williams{
+	
+	border: 10px solid black;
+	margin-right: 1000px;
+	background: red;
+	color: white;
+}
+
+/* Passing */
+
+#passBody {
+	background-color: yellow;
+}
+div.Winston{
+	
+	border: 10px solid black;
+	margin-right: 1000px;
+	background: red;
+	color: white;
+}
+div.Vinny{
+	
+	border: 10px solid red;
+	margin-right: 1000px;
+	background: black;
+	color: white;
+}
+div.Freeman{
+	
+	border: 10px solid gold;
+	margin-right: 1000px;
+	background: red;
+	color: white;
+}
+div.Dilfer{
+	
+	border: 10px solid red;
+	margin-right: 1000px;
+	background: black;
+	color: white;
+}
+div.Brady{
+	
+	border: 10px solid black;
+	margin-right: 1000px;
+	background: red;
+	color: white;
+}
+
+
+/* unvisited link */
+a:link {
+  color: red;
+  
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: pink;
+}
+

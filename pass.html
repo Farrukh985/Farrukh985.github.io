@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<title> Leading Passer </title>
+	<script src="js/html5shiv.js"></script>
+<link id ="maincss" rel="stylesheet" href="main.css">
+<script>
+	function toggleCSS(){
+	var currentCSS = document.getElementById('maincss');
+	
+	if (currentCSS.getAttribute('href') == 'main.css'){
+		currentCSS.setAttribute('href', 'alternate.css');
+	}else {
+		currentCSS.setAttribute('href', 'main.css');
+	}
+	}
+</script>
+
+</head>
+
+<body id = "passBody">
+<header>
+<button onclick="toggleCSS()"> Switch style </button>
+<h1> Tampa Bay Buccaneers Leading Passer </h1>
+</header>
+<h2> Bellow will be our top 5 Passers and their stats when they played with the Bucs </h2>
+
+
+<div class ="Winston">
+<h3> 1.Jameis Winston </h3>
+<ul>
+<li> Completion percentage: 61.3% </li>
+<li> Passing yards: 19737 </li>
+<li> Passing Touchdowns: 121 </li>
+<li> Interceptions: 88 </li>
+<li> Seasons with the Bucs: 5 </li>
+</ul>
+</div>
+
+<div class ="Vinny">
+<h3> 2.Vinny Testaverde </h3>
+<ul>
+<li> Completion percentage: 52.1% </li>
+<li> Passing yards: 14820 </li>
+<li> Passing Touchdowns: 77 </li>
+<li> Interceptions: 112 </li>
+<li> Seasons with the Bucs: 6 </li>
+</ul>
+</div>
+
+<div class = "Freeman">
+<h3> 3.Josh Freeman </h3>
+<ul>
+<li> Completion percentage: 58.2% </li>
+<li> Passing yards: 13534 </li>
+<li> Passing Touchdowns: 80 </li>
+<li> Interceptions: 66 </li>
+<li> Seasons with the Bucs: 5 </li>
+</ul>
+</div>
+
+<div class = " Dilfer">
+<h3> 4.Trent Dilfer </h3>
+<ul>
+<li> Completion percentage: 54.8% </li>
+<li> Passing yards: 12969 </li>
+<li> Passing Touchdowns: 70 </li>
+<li> Interceptions: 80 </li>
+<li> Seasons with the Bucs: 6 </li>
+</ul>
+</div>
+
+<div class ="Brady">
+<h3> 5.Tom Brady </h3>
+<ul>
+<li> Completion percentage: 66.5% </li>
+<li> Passing yards: 12754 </li>
+<li> Passing Touchdowns: 95 </li>
+<li> Interceptions: 26 </li>
+<li> Seasons with the Bucs: 3 </li>
+</ul>
+</div>
+
+<a href ="https://www.pro-football-reference.com/teams/tam/career-passing.htm">
+<p> To see more </p>
+</a>
+<a href = "index.html">
+<p> to return to the main website </p>
+</a>
+<footer> <p>&copy;Farrukh Sajjad USF </p></footer>
+
+
+</body>

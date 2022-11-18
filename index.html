@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<title> Tampa Bay Buccaneers </title>
+	<script src="js/html5shiv.js"></script>
+<link id ="maincss" rel="stylesheet" href="main.css">
+
+
+<script>
+	function toggleCSS(){
+	var currentCSS = document.getElementById('maincss');
+	
+	if (currentCSS.getAttribute('href') == 'main.css'){
+		currentCSS.setAttribute('href', 'alternate.css');
+	}else {
+		currentCSS.setAttribute('href', 'main.css');
+	}
+	}
+</script>
+
+</head>
+	
+<body id = "mainBody">
+<header id = "mainHead">
+<button onclick="toggleCSS()"> Switch style </button>
+<h1> Tampa Bay Buccaneers </h1>
+<div id ="logo">
+<a href= "logo.jpg">
+			<img src ="logo.jpg" alt ="logo" />
+		</a>
+</div>
+</header>
+<h2> Home of the two time champions </h2>
+<div id ="ring">
+<a href= "superbowl.jpg">
+			<img src ="superbowl.jpg" alt ="superbowl" />
+		</a>
+		</div>
+<h2> Get a view of our teams historical statistics </h2>
+
+
+<a href = "recievers.html">
+<h3> Leading Recievers </h3>
+</a>
+
+<div id ="evansPic">
+<a href= "evans.jpg">
+			<img src ="evans.jpg" alt ="evans" />
+		</a>
+</div>
+
+<a href = "rush.html">
+<h3> Leading Rushers </h3>
+</a>
+<div id ="wilderPic">
+<a href= "widler.jpg">
+			<img src ="wilder.jpg" alt ="wilder" />
+</a>
+
+<a href = "pass.html">
+<h3> Leading Passers </h3>
+</a>
+<div id ="winstonPic">
+<a href= "winston.jpg">
+			<img src ="winston.jpg" alt ="wilder" />
+			</a>
+<footer> <p>&copy;Farrukh Sajjad USF </p></footer>
+
+
+</body>

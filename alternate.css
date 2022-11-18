@@ -1,0 +1,237 @@
+/* index */
+#mainBody {
+	background-color: red;
+}
+header{
+	background-color:blue;
+}
+
+#logo img{
+	width: 400px;
+    height: auto;
+	border: 5px solid red;
+	margin-left: 1000px;
+	rotate: -10deg;
+
+	
+}
+
+h1{
+	font-family: Papyrus;
+	align: center;
+	margin-top: 150px;
+	rotate: 5deg;
+	color: green;
+	border: 10px solid purple;
+	margin-right:450px;
+	margin-left: 150px;
+	text-align:center;
+}
+
+h2{
+	font-family: Papyrus;
+	
+	margin-top: 150px;
+	rotate: 5deg;
+	color: green;
+	border: 10px solid purple;
+	margin-right:450px;
+	margin-left: 150px;
+	text-align:center;
+}
+
+#ring img{
+	width: 400px;
+    height: auto;
+}
+
+#evansPic img{
+	width: 300px;
+    height: auto;
+	border: 10px solid silver;
+}
+#wilderPic img{
+	width: 300px;
+    height: 150px;
+	border: 10px solid blue;
+	margin-left: 500px;
+	rotate:5deg;
+}
+#winstonPic img{
+	width: 300px;
+    height: 200px;
+	border: 10px solid black;
+	rotate:-15deg
+}
+
+/* reciever */
+#recieverBody {
+	background-color: grey;
+}
+
+div.Evans{
+	margin-left:200px;
+	border: 10px solid purple;
+	margin-right: 800px;
+	background: green;
+	color: white;
+	padding: 10px;
+	font-family: Papyrus;
+	
+}
+div.Godwin{
+	
+	border: 10px solid blue;
+	margin-right: 1000px;
+	background: black;
+	color: white;
+	font-family: Papyrus;
+}
+div.Carrier{
+	
+		margin-left:200px;
+	border: 10px solid purple;
+	margin-right: 800px;
+	background: green;
+	color: white;
+	padding: 10px;
+	font-family: Papyrus;
+}
+div.House{
+	
+	border: 10px solid blue;
+	margin-right: 1000px;
+	background: black;
+	color: white;
+	font-family: Papyrus;
+}
+div.Jackson{
+	
+	margin-left:200px;
+	border: 10px solid purple;
+	margin-right: 800px;
+	background: green;
+	color: white;
+	padding: 10px;
+	font-family: Papyrus;
+}
+/* rushing */
+#rushBody {
+	background-color: grey;
+}
+
+div.Wilder{
+	margin-left:200px;
+	border: 10px solid purple;
+	margin-right: 800px;
+	background: green;
+	color: white;
+	padding: 10px;
+	font-family: Papyrus;
+	
+}
+div.Alstott{
+	
+	border: 10px solid blue;
+	margin-right: 1000px;
+	background: black;
+	color: white;
+	font-family: Papyrus;
+}
+div.Dunn{
+	
+		margin-left:200px;
+	border: 10px solid purple;
+	margin-right: 800px;
+	background: green;
+	color: white;
+	padding: 10px;
+	font-family: Papyrus;
+}
+div.Martin{
+	
+	border: 10px solid blue;
+	margin-right: 1000px;
+	background: black;
+	color: white;
+	font-family: Papyrus;
+}
+div.Williams{
+	
+	margin-left:200px;
+	border: 10px solid purple;
+	margin-right: 800px;
+	background: green;
+	color: white;
+	padding: 10px;
+	font-family: Papyrus;
+}
+
+/* Passing */
+
+#passBody {
+	background-color: grey;
+}
+
+div.Winston{
+	margin-left:200px;
+	border: 10px solid purple;
+	margin-right: 800px;
+	background: green;
+	color: white;
+	padding: 10px;
+	font-family: Papyrus;
+	
+}
+div.Vinny{
+	
+	border: 10px solid blue;
+	margin-right: 1000px;
+	background: black;
+	color: white;
+	font-family: Papyrus;
+}
+div.Freeman{
+	
+		margin-left:200px;
+	border: 10px solid purple;
+	margin-right: 800px;
+	background: green;
+	color: white;
+	padding: 10px;
+	font-family: Papyrus;
+}
+div.Dilfer{
+	
+	border: 10px solid blue;
+	margin-right: 1000px;
+	background: black;
+	color: white;
+	font-family: Papyrus;
+}
+div.Brady{
+	
+	margin-left:200px;
+	border: 10px solid purple;
+	margin-right: 800px;
+	background: green;
+	color: white;
+	padding: 10px;
+	font-family: Papyrus;
+}
+	
+
+a:link {
+  color: orange;
+}
+
+/* visited link */
+a:visited {
+  color: grey;
+}
+
+/* mouse over link */
+a:hover {
+	
+  color: blue;
+}
